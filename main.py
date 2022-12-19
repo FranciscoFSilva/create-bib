@@ -1,6 +1,6 @@
-import time
 from habanero import Crossref, WorksContainer
 from argparse import ArgumentParser
+import csv
 
 def get_work(cr,doi,sort = None):
     return cr.works(ids = doi, sort = sort)
@@ -51,6 +51,7 @@ if __name__ == "__main__":
     parser.add_argument("-f", "--file", dest="myFile", help="Open specified file")
     args = parser.parse_args()
     myFile = args.myFile
+    article_info_list  = []
     with open(myFile) as file:
         data = file.read()
         data_list = data.split("\n")
@@ -64,5 +65,13 @@ if __name__ == "__main__":
             authors_string = get_authors_string(authors)
             if not date:
                 date = [0]
+            article_info_list.append({'date': ' '.join(map(str,date)), 'first': first, 'authors': ' '.join(authors_string), 'title': title[0]})
             text = f"{' '.join(map(str,date))} - {' '.join(authors_string)}: {title[0]}."
             print(text)
+
+    csv_filename = 'bib.csv'
+    fields = ['date', 'first', 'authors', 'title']
+    with open(csv_filename, 'w') as csvfile:
+        writer = csv.DictWriter(csvfile, fieldnames = fields)
+        writer.writeheader()
+        writer.writerows(article_info_list)
