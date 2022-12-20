@@ -1,45 +1,45 @@
-date,first,authors,title
-2022 8,Santos,"Santos, Barbara Maria Oliveira and Santos, Gabriel dos and Sirois, Frederic and Brambilla, Roberto and Junior, Rubens de Andrade and Sass, Felipe and Sotelo, Guilherme Goncalves and Grilli, Francesco",2-D Modeling of HTS Coils With $T$-$A$ Formulation: How to Handle Different Coupling Scenarios
-2020 5 14,Takahashi,"Takahashi, K. and Fujishiro, H. and Ainslie, M. D.",Simulation study for magnetic levitation in pure water exploiting the ultra-high magnetic field gradient product of a hybrid trapped field magnet lens (HTFML)
-2002 4,Deb,"Deb, K. and Pratap, A. and Agarwal, S. and Meyarivan, T.",A fast and elitist multiobjective genetic algorithm: NSGA-II
-2005 3,Grilli,"Grilli, F. and Stavrev, S. and LeFloch, Y. and Costa-Bouzo, M. and Vinot, E. and Klutsch, I. and Meunier, G. and Tixador, P. and Dutoit, B.",Finite-Element Method Modeling of Superconductors: From 2-D to 3-D
-2017 3 1,Ainslie,"Ainslie, M D and Fujishiro, H",Corrigendum: Modelling of bulk superconductor magnetisation (2015<i>Supercond. Sci. Technol.</i><b>28</b>053002)
-2022 5 1,Anvar,"Anvar, V A and Wang, K and Weiss, J D and Radcliff, K and van der Laan, D C and Hossain, M S A and Nijhuis, A",Enhanced critical axial tensile strain limit of CORC<sup>®</sup> wires: FEM and analytical modeling
-2019 6 1,Berrospe-Juarez,"Berrospe-Juarez, Edgar and Zermeño, Víctor M R and Trillaud, Frederic and Grilli, Francesco",Real-time simulation of large-scale HTS systems: multi-scale and homogeneous models using the <i>T–A</i> formulation
-2007 1 1,Brambilla,"Brambilla, Roberto and Grilli, Francesco and Martini, Luciano",Development of an edge-element model for AC loss computation of high-temperature superconductors
-2020 8 1,Mataira,"Mataira, R C and Ainslie, M D and Badcock, R A and Bumby, C W",Finite-element modelling of no-insulation HTS coils using rotated anisotropic resistivity
-2014 2,Grilli,"Grilli, Francesco and Pardo, Enric and Stenvall, Antti and Nguyen, Doan N. and Weijia Yuan,  and Gomory, Fedor",Computation of Losses in HTS Under the Action of Varying Magnetic Fields and Currents
-2004 1,Koo,"Koo, Je Huan and Cho, Guangsup",Magnetic field dependence on transition temperature Tc in cuprate superconductors
-2021 3 1,De Marzi,"De Marzi, Gianluca and Celentano, Giuseppe and Augieri, Andrea and Marchetti, Marcello and Vannozzi, Angelo",Experimental and numerical studies on current distribution in stacks of HTS tapes for cable-in-conduit-conductors
-2012 11 1,Durrell,"Durrell, J H and Dancer, C E J and Dennis, A and Shi, Y and Xu, Z and Campbell, A M and Babu, N Hari and Todd, R I and Grovenor, C R M and Cardwell, D A",A trapped field of &gt;3 T in bulk MgB<sub>2</sub>fabricated by uniaxial hot pressing
-0,Bean,"Bean, C. P.",Magnetization of Hard Superconductors
-2010 10 1,Fujishiro,"Fujishiro, Hiroyuki and Naito, Tomoyuki",Simulation of temperature and magnetic field distribution in superconducting bulk during pulsed field magnetization
-2016 12,Sotelo,"Sotelo, Guilherme Goncalves and Carrera, Miquel and Lopez-Lopez, Josep and Granados, Xavier",H-Formulation FEM Modeling of the Current Distribution in 2G HTS Tapes and Its Experimental Validation Using Hall Probe Mapping
-2022 4 1,Huber,"Huber, Felix and Song, Wenjuan and Zhang, Min and Grilli, Francesco",The T-A formulation: an efficient approach to model the macroscopic electromagnetic behaviour of HTS coated conductor applications
-1965 11,Hulbert,"Hulbert, J A",Magnetization of a cylindrical hard superconductor
-0,BEAN,"BEAN, CHARLES P.",Magnetization of High-Field Superconductors
-2007 6,Grilli,"Grilli, F. and Brambilla, R. and Martini, L.",Modeling High-Temperature Superconducting Tapes by Means of Edge Finite Elements
-2018 7 1,Pardo,"Pardo, E and Kapolka, M","Corrigendum: Three dimensional magnetization currents, magnetization loop and saturation field in superconducting rectangular prisms (<i>Supercond. Sci. Technol.</i> <b>30</b> 064007)"
-2015,Amemiya,"Amemiya, Naoyuki and Miyahara, Hidetoshi and Ogitsu, Toru and Kurusu, Tsutomu",Design of a Cosine-theta Dipole Magnet Wound with Coated Conductors Considering their Deformation at Coil ends During Winding Process
-2019 2 1,Wang,"Wang, Yawei and Zhang, Min and Grilli, Francesco and Zhu, Zixuan and Yuan, Weijia",Study of the magnetization loss of CORC<sup>®</sup> cables using a 3D T-A formulation
-0,Kim,"Kim, Y. B. and Hempstead, C. F. and Strnad, A. R.",Critical Persistent Currents in Hard Superconductors
-2011 7 1,Prigozhin,"Prigozhin, Leonid and Sokolovsky, Vladimir",Computing AC losses in stacks of high-temperature superconducting tapes
-2016 4,Abin,"Abin, Dmitry and Osipov, Maxim and Pokrovskii, Sergei and Rudnev, Igor",Relaxation of Levitation Force of a Stack of HTS Tapes
-2022 11,Dias,"Dias, Fernando Jorge Monteiro and Sotelo, Guilherme Goncalves and Andrade, Rubens de and Trillaud, Frederic",Response of a Trapped Flux Superconducting Motor to Two Drive Methods
-0,Lee,"Lee, Jae-In and Dao, Van Quan and Dinh, Minh-Chau and Lee, Seok-ju and Kim, Chang Soon and Park, Minwon",Combined Operation Analysis of a Saturated Iron-Core Superconducting Fault Current Limiter and Circuit Breaker for an HVDC System Protection
-2020 9,Benkel,"Benkel, Tara and Lao, Mayraluna and Liu, Yingzhen and Pardo, Enric and Wolfstadter, Simon and Reis, Thomas and Grilli, Francesco",<i>T–A</i>-Formulation to Model Electrical Machines With HTS Coated Conductor Coils
-2020 11 1,Zhang,"Zhang, Kai and Ainslie, Mark and Calvi, Marco and Hellmann, Sebastian and Kinjo, Ryota and Schmidt, Thomas",Fast and efficient critical state modelling of field-cooled bulk high-temperature superconductors using a backward computation method
-2000 1,Chapman,"Chapman, S. J.",A Hierarchy of Models for Type-II Superconductors
-0,da Silva,"da Silva, Francisco Ferreira and Fernandes, João F. P. and da Costa Branco, Paulo Jose",Barriers and Challenges Going from Conventional to Cryogenic Superconducting Propulsion for Hybrid and All-Electric Aircrafts
-1996 4,Chapman,"Chapman, S. J. and Rubinstein, J. and Schatzman, M.",A mean-field model of superconducting vortices
-2001 3,van der Laan,"van der Laan, D.C. and van Eck, H.J.N. and ten Haken, B. and Schwartz, J. and ten Kate, H.H.J.",Temperature and magnetic field dependence of the critical current of Bi/sub 2/Sr/sub 2/Ca/sub 2/Cu/sub 3/O/sub x/ tape conductors
-2012 11 1,Durrell,"Durrell, J H and Dancer, C E J and Dennis, A and Shi, Y and Xu, Z and Campbell, A M and Babu, N Hari and Todd, R I and Grovenor, C R M and Cardwell, D A",A trapped field of &gt;3 T in bulk MgB<sub>2</sub>fabricated by uniaxial hot pressing
-2017 7 28,Liang,"Liang, Fei and Venuturumilli, Sriharsha and Zhang, Huiming and Zhang, Min and Kvitkovic, Jozef and Pamidi, Sastry and Wang, Yawei and Yuan, Weijia",A finite element model for simulating second generation high temperature superconducting coils/stacks with large number of turns
-1970 4 1,Norris,"Norris, W T",Calculation of hysteresis losses in hard superconductors carrying ac: isolated conductors and edges of thin sheets
-0,Wilson,"Wilson, Greg and Aruliah, D. A. and Brown, C. Titus and Chue Hong, Neil P. and Davis, Matt and Guy, Richard T. and Haddock, Steven H. D. and Huff, Kathryn D. and Mitchell, Ian M. and Plumbley, Mark D. and Waugh, Ben and White, Ethan P. and Wilson, Paul",Best Practices for Scientific Computing
-1979 10,Matula,"Matula, R. A.","Electrical resistivity of copper, gold, palladium, and silver"
-2015 5 1,Ainslie,"Ainslie, M D and Fujishiro, H",Modelling of bulk superconductor magnetization
-2020 6 1,Breschi,"Breschi, Marco and Filicori, Fabio and Musso, Andrea and Pasini, Gaetano",An electromagnetic method for measuring AC losses in HTS tapes without lock-in amplifier
-2021 9,Higashi,"Higashi, Yoichi and Mawatari, Yasunori",Round-Core-Radius-Dependent Electromagnetic Coupling of Multifilament Helical Superconducting Tapes in a Swept Magnetic Field
-2022 6,Fareed,"Fareed, M. U. and Kapolka, M. and Robert, B. C. and Clegg, M. and Ruiz, H. S.",3D FEM Modeling of ${\mathrm CORC}$ Commercial Cables With Bean’s Like Magnetization Currents and Its AC-Losses Behavior
-1964 9,VAHLQUIST,"VAHLQUIST, BO and WALLGREN, ARVID",Nils Rosén von Rosenstein and His Textbook of Pædiatrics
+year,month,first,authors,title
+2022,8,Santos,"Santos, Barbara Maria Oliveira and Santos, Gabriel Dos and Sirois, Frederic and Brambilla, Roberto and Junior, Rubens De Andrade and Sass, Felipe and Sotelo, Guilherme Goncalves and Grilli, Francesco",2-D Modeling of HTS Coils With $T$-$A$ Formulation: How to Handle Different Coupling Scenarios
+2020,5,Takahashi,"Takahashi, K. And Fujishiro, H. And Ainslie, M. D.",Simulation Study for Magnetic Levitation in Pure Water Exploiting the Ultra-High Magnetic Field Gradient Product of a Hybrid Trapped Field Magnet Lens (HTFML)
+2002,4,Deb,"Deb, K. And Pratap, A. And Agarwal, S. And Meyarivan, T.",A Fast and Elitist Multiobjective Genetic Algorithm: NSGA-II
+2005,3,Grilli,"Grilli, F. And Stavrev, S. And LeFloch, Y. And Costa-Bouzo, M. And Vinot, E. And Klutsch, I. And Meunier, G. And Tixador, P. And Dutoit, B.",Finite-Element Method Modeling of Superconductors: From 2-D to 3-D
+2017,3,Ainslie,"Ainslie, M D and Fujishiro, H",Corrigendum: Modelling of Bulk Superconductor Magnetisation (2015<i>Supercond. Sci. Technol.</I><b>28</B>053002)
+2022,5,Anvar,"Anvar, v a and Wang, K and Weiss, J D and Radcliff, K and Van Der Laan, D C and Hossain, M S a and Nijhuis, A",Enhanced Critical Axial Tensile Strain Limit of CORC<sup>®</sup> Wires: FEM and Analytical Modeling
+2019,6,Berrospe-Juarez,"Berrospe-Juarez, Edgar and Zermeño, Víctor M R and Trillaud, Frederic and Grilli, Francesco",Real-Time Simulation of Large-Scale HTS Systems: Multi-Scale and Homogeneous Models Using the <i>T–A</I> Formulation
+2007,1,Brambilla,"Brambilla, Roberto and Grilli, Francesco and Martini, Luciano",Development of an Edge-Element Model for AC Loss Computation of High-Temperature Superconductors
+2020,8,Mataira,"Mataira, R C and Ainslie, M D and Badcock, R a and Bumby, C W",Finite-Element Modelling of No-Insulation HTS Coils Using Rotated Anisotropic Resistivity
+2014,2,Grilli,"Grilli, Francesco and Pardo, Enric and Stenvall, Antti and Nguyen, Doan N. And Weijia Yuan,  and Gomory, Fedor",Computation of Losses in HTS Under the Action of Varying Magnetic Fields and Currents
+2004,1,Koo,"Koo, Je Huan and Cho, Guangsup",Magnetic Field Dependence on Transition Temperature Tc in Cuprate Superconductors
+2021,3,De Marzi,"De Marzi, Gianluca and Celentano, Giuseppe and Augieri, Andrea and Marchetti, Marcello and Vannozzi, Angelo",Experimental and Numerical Studies on Current Distribution in Stacks of HTS Tapes for Cable-in-Conduit-Conductors
+2012,11,Durrell,"Durrell, J H and Dancer, C E J and Dennis, a and Shi, Y and Xu, Z and Campbell, a M and Babu, N Hari and Todd, R I and Grovenor, C R M and Cardwell, D A",A Trapped Field of &Gt;3 T in Bulk MgB<sub>2</sub>fabricated by Uniaxial Hot Pressing
+0,0,Bean,"Bean, C. P.",Magnetization of Hard Superconductors
+2010,10,Fujishiro,"Fujishiro, Hiroyuki and Naito, Tomoyuki",Simulation of Temperature and Magnetic Field Distribution in Superconducting Bulk During Pulsed Field Magnetization
+2016,12,Sotelo,"Sotelo, Guilherme Goncalves and Carrera, Miquel and Lopez-Lopez, Josep and Granados, Xavier",H-Formulation FEM Modeling of the Current Distribution in 2G HTS Tapes and Its Experimental Validation Using Hall Probe Mapping
+2022,4,Huber,"Huber, Felix and Song, Wenjuan and Zhang, Min and Grilli, Francesco",The T-a Formulation: An Efficient Approach to Model the Macroscopic Electromagnetic Behaviour of HTS Coated Conductor Applications
+1965,11,Hulbert,"Hulbert, J A",Magnetization of a Cylindrical Hard Superconductor
+0,0,Bean,"Bean, Charles P.",Magnetization of High-Field Superconductors
+2007,6,Grilli,"Grilli, F. And Brambilla, R. And Martini, L.",Modeling High-Temperature Superconducting Tapes by Means of Edge Finite Elements
+2018,7,Pardo,"Pardo, E and Kapolka, M","Corrigendum: Three Dimensional Magnetization Currents, Magnetization Loop and Saturation Field in Superconducting Rectangular Prisms (<i>Supercond. Sci. Technol.</I> <b>30</B> 064007)"
+2015,0,Amemiya,"Amemiya, Naoyuki and Miyahara, Hidetoshi and Ogitsu, Toru and Kurusu, Tsutomu",Design of a Cosine-Theta Dipole Magnet Wound With Coated Conductors Considering Their Deformation at Coil Ends During Winding Process
+2019,2,Wang,"Wang, Yawei and Zhang, Min and Grilli, Francesco and Zhu, Zixuan and Yuan, Weijia",Study of the Magnetization Loss of CORC<sup>®</sup> Cables Using a 3D T-a Formulation
+0,0,Kim,"Kim, Y. B. And Hempstead, C. F. And Strnad, A. R.",Critical Persistent Currents in Hard Superconductors
+2011,7,Prigozhin,"Prigozhin, Leonid and Sokolovsky, Vladimir",Computing AC Losses in Stacks of High-Temperature Superconducting Tapes
+2016,4,Abin,"Abin, Dmitry and Osipov, Maxim and Pokrovskii, Sergei and Rudnev, Igor",Relaxation of Levitation Force of a Stack of HTS Tapes
+2022,11,Dias,"Dias, Fernando Jorge Monteiro and Sotelo, Guilherme Goncalves and Andrade, Rubens De and Trillaud, Frederic",Response of a Trapped Flux Superconducting Motor to Two Drive Methods
+0,0,Lee,"Lee, Jae-in and Dao, Van Quan and Dinh, Minh-Chau and Lee, Seok-Ju and Kim, Chang Soon and Park, Minwon",Combined Operation Analysis of a Saturated Iron-Core Superconducting Fault Current Limiter and Circuit Breaker for an HVDC System Protection
+2020,9,Benkel,"Benkel, Tara and Lao, Mayraluna and Liu, Yingzhen and Pardo, Enric and Wolfstadter, Simon and Reis, Thomas and Grilli, Francesco",<i>T–A</I>-Formulation to Model Electrical Machines With HTS Coated Conductor Coils
+2020,11,Zhang,"Zhang, Kai and Ainslie, Mark and Calvi, Marco and Hellmann, Sebastian and Kinjo, Ryota and Schmidt, Thomas",Fast and Efficient Critical State Modelling of Field-Cooled Bulk High-Temperature Superconductors Using a Backward Computation Method
+2000,1,Chapman,"Chapman, S. J.",A Hierarchy of Models for Type-Ii Superconductors
+0,0,Da Silva,"Da Silva, Francisco Ferreira and Fernandes, João F. P. And Da Costa Branco, Paulo Jose",Barriers and Challenges Going From Conventional to Cryogenic Superconducting Propulsion for Hybrid and All-Electric Aircrafts
+1996,4,Chapman,"Chapman, S. J. And Rubinstein, J. And Schatzman, M.",A Mean-Field Model of Superconducting Vortices
+2001,3,Van Der Laan,"Van Der Laan, D.C. And Van Eck, H.J.N. And Ten Haken, B. And Schwartz, J. And Ten Kate, H.H.J.",Temperature and Magnetic Field Dependence of the Critical Current of Bi/Sub 2/Sr/Sub 2/Ca/Sub 2/Cu/Sub 3/O/Sub X/ Tape Conductors
+2012,11,Durrell,"Durrell, J H and Dancer, C E J and Dennis, a and Shi, Y and Xu, Z and Campbell, a M and Babu, N Hari and Todd, R I and Grovenor, C R M and Cardwell, D A",A Trapped Field of &Gt;3 T in Bulk MgB<sub>2</sub>fabricated by Uniaxial Hot Pressing
+2017,7,Liang,"Liang, Fei and Venuturumilli, Sriharsha and Zhang, Huiming and Zhang, Min and Kvitkovic, Jozef and Pamidi, Sastry and Wang, Yawei and Yuan, Weijia",A Finite Element Model for Simulating Second Generation High Temperature Superconducting Coils/Stacks With Large Number of Turns
+1970,4,Norris,"Norris, W T",Calculation of Hysteresis Losses in Hard Superconductors Carrying Ac: Isolated Conductors and Edges of Thin Sheets
+0,0,Wilson,"Wilson, Greg and Aruliah, D. A. And Brown, C. Titus and Chue Hong, Neil P. And Davis, Matt and Guy, Richard T. And Haddock, Steven H. D. And Huff, Kathryn D. And Mitchell, Ian M. And Plumbley, Mark D. And Waugh, Ben and White, Ethan P. And Wilson, Paul",Best Practices for Scientific Computing
+1979,10,Matula,"Matula, R. A.","Electrical Resistivity of Copper, Gold, Palladium, and Silver"
+2015,5,Ainslie,"Ainslie, M D and Fujishiro, H",Modelling of Bulk Superconductor Magnetization
+2020,6,Breschi,"Breschi, Marco and Filicori, Fabio and Musso, Andrea and Pasini, Gaetano",An Electromagnetic Method for Measuring AC Losses in HTS Tapes Without Lock-in Amplifier
+2021,9,Higashi,"Higashi, Yoichi and Mawatari, Yasunori",Round-Core-Radius-Dependent Electromagnetic Coupling of Multifilament Helical Superconducting Tapes in a Swept Magnetic Field
+2022,6,Fareed,"Fareed, M. U. And Kapolka, M. And Robert, B. C. And Clegg, M. And Ruiz, H. S.",3D FEM Modeling of ${\Mathrm CORC}$ Commercial Cables With Bean’s Like Magnetization Currents and Its AC-Losses Behavior
+1964,9,Vahlquist,"VAHLQUIST, BO and WALLGREN, ARVID",Nils Rosén Von Rosenstein and His Textbook of Pædiatrics

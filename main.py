@@ -1,3 +1,4 @@
+from titlecase import titlecase
 from habanero import Crossref, WorksContainer
 from argparse import ArgumentParser
 import csv
@@ -44,6 +45,14 @@ def get_published_date(work):
         return date["date-parts"][0]
     return []
 
+def get_year(date):
+    return date[0]
+
+def get_month(date):
+    if len(date) >= 2:
+        return date[1]
+    return 0
+
 if __name__ == "__main__":
     mailto = "francisco.ferreira.silva@tecnico.ulisboa.pt"
     cr = Crossref(mailto = mailto)
@@ -62,15 +71,16 @@ if __name__ == "__main__":
             title = get_title(work)
             first = get_first_author(authors)
             authors_string = get_authors_string(authors)
-            authors_string = get_authors_string(authors)
             if not date:
-                date = [0]
-            article_info_list.append({'date': ' '.join(map(str,date)), 'first': first, 'authors': ' '.join(authors_string), 'title': title[0]})
-            text = f"{' '.join(map(str,date))} - {' '.join(authors_string)}: {title[0]}."
-            print(text)
+                year = 0
+                month = 0
+            else:
+                year = get_year(date)
+                month = get_month(date)
+            article_info_list.append({'year': year, 'month': month, 'first': str.title(first), 'authors': titlecase(' '.join(authors_string)), 'title': titlecase(title[0])})
 
     csv_filename = 'bib.csv'
-    fields = ['date', 'first', 'authors', 'title']
+    fields = ['year', 'month', 'first', 'authors', 'title']
     with open(csv_filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = fields)
         writer.writeheader()
