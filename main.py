@@ -53,6 +53,24 @@ def get_month(date):
         return date[1]
     return 0
 
+def get_journal(work):
+    x = WorksContainer(work)
+    if hasattr(x, "container_title"):
+        return x.container_title[0]
+    return []       
+
+def get_journal_volume(work):
+    x = WorksContainer(work)
+    if hasattr(x, "volume"):
+        return x.volume[0]
+    return ""
+
+def get_journal_issue(work):
+    x = WorksContainer(work)
+    if hasattr(x, "issue"):
+        return x.issue[0]
+    return ""
+
 if __name__ == "__main__":
     mailto = "francisco.ferreira.silva@tecnico.ulisboa.pt"
     cr = Crossref(mailto = mailto)
@@ -64,11 +82,16 @@ if __name__ == "__main__":
     with open(myFile) as file:
         data = file.read()
         data_list = data.split("\n")
+        if data_list[-1] == "":
+            data_list.pop()
         works = get_work(cr,data_list)
         for work in works:
             date = get_published_date(work)
             authors = get_authors(work)
             title = get_title(work)
+            journal = get_journal(work)
+            volume = get_journal_volume(work)
+            issue = get_journal_issue(work)
             first = get_first_author(authors)
             authors_string = get_authors_string(authors)
             if not date:
@@ -77,10 +100,10 @@ if __name__ == "__main__":
             else:
                 year = get_year(date)
                 month = get_month(date)
-            article_info_list.append({'year': year, 'month': month, 'first': str.title(first), 'authors': titlecase(' '.join(authors_string)), 'title': titlecase(title[0])})
+            article_info_list.append({'year': year, 'month': month, 'first': str.title(first), 'authors': titlecase(' '.join(authors_string)), 'title': titlecase(title[0]), 'journal': journal[0], 'volume': volume, 'issue': issue})
 
     csv_filename = 'bib.csv'
-    fields = ['year', 'month', 'first', 'authors', 'title']
+    fields = ['year', 'month', 'first', 'authors', 'title', 'journal', 'volume', 'issue']
     with open(csv_filename, 'w') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = fields)
         writer.writeheader()
