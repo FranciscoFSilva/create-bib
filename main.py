@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     csv_filename = 'bib.csv'
     fields = ['year', 'month', 'first', 'authors', 'title', 'journal', 'volume', 'issue']
-    with open(csv_filename, 'w') as csvfile:
+    with open(csv_filename, 'w', encoding="utf-8", newline = '') as csvfile:
         writer = csv.DictWriter(csvfile, fieldnames = fields)
         writer.writeheader()
         writer.writerows(article_info_list)
